@@ -1,0 +1,148 @@
+body {
+  padding-top: 12.1875rem;
+  color: #013042;
+  font-family: 'museo-sans', sans-serif;
+  font-size: 1.125rem;
+  min-width: 64rem;
+  margin: 0;
+  transition: all .3s ease 0s !important;
+  display: block;
+}
+
+header {
+  display: block;
+}
+
+.header {
+  background-color: #013042;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  z-index: 2;
+}
+
+.header_container {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: .5rem 0;
+}
+
+.container {
+  max-width: 64rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.header_logo {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header_logo_image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+img {
+  border-style: none;
+}
+
+.header_address .header_phone {
+  width: 15rem;
+  margin: 0 1.5rem;
+}
+
+.header_address {
+  order: -1;
+}
+
+.header_address_heading {
+  margin: 0;
+  color: #6ec6ca;
+  font-family: 'rajdhani', sans-serif;
+  font-size: 150%;
+  text-transform: uppercase;
+}
+
+h3 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.header_address a {
+  color: inherit;
+}
+
+div {
+  display: block;
+}
+
+.header_phone {
+  text-align: center;
+}
+
+.header_phone_heading {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.header_phone_number {
+  color: #6ec6ca;
+  font-family: 'rajdhani', sans-serif;
+  font-size: 225%;
+  font-weight: 700;
+}
+
+.header_phone_description {
+  font-size: italic;
+}
+
+.nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  display: block;
+}
+
+.nav_list {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  list-style: none;
+  text-align: center;
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
